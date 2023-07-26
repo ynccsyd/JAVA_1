@@ -23,10 +23,10 @@ public class NotOrtalama {
         muzik = not.nextInt();
         int toplam = (mat + fizik + kimya + turkce + tarih + muzik);
         double ort = toplam / 6.0; // Use 6.0 to get a double result in division
-        boolean gecmeNotu = ort >= 50;
+        boolean gecmeNotu = ort >= 60;
 
         // Use ternary operator to display the result
-        String sonuc = gecmeNotu ? "Geçti" : "Kaldi";
+        String sonuc = gecmeNotu ? "Sınıfı Geçti" : "Kaldi";
         System.out.println("Geçme notunuz: " + ort + " " + sonuc);
     }
 }
