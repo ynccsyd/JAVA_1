@@ -21,3 +21,21 @@ public class SwitchCaseYapisi {
         }
     }
 }
+
+// public class SwitchCase {
+// public static void main(String[] args) {
+// int day = 2;
+// switch (gun) {
+// case 6:
+// System.out.println("Today is Saturday");
+// break;
+// case 7:
+// System.out.println("Today is Monday");
+// break;
+// default:
+// System.out.println("Today is Weekday");
+// }
+// // Çıktısı "Week days"
+// }
+
+// }
