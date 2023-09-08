@@ -41,3 +41,8 @@ public class SwitchCaseCalculator {
         }
     }
 }
+// Output:
+// The first number:1
+// The second number: 2
+// Choose the operator( +,-,*,/ ): +
+// Result: 3.0
