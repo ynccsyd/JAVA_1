@@ -10,14 +10,14 @@ public class WeatherAdvice {
 
         if (temperature < 5) {
             System.out.println("You can go skiing!.");
-        }else if(temperature>=5 && temperature>=25){
-            if(temperature<=15){
+        } else if (temperature >= 5 && temperature >= 25) {
+            if (temperature <= 15) {
                 System.out.println("You can go o the cinema!.");
             }
-            if(temperature>=){
+            if (temperature >= 10) {
                 System.out.println("You can go to the picnic.");
             }
-        }else{
+        } else {
             System.out.println("You can go to the swimming.");
         }
 
