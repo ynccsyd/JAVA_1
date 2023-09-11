@@ -18,7 +18,7 @@ public class GradeAvarage {
         music = input.nextInt();
 
         double average = (math + physics + chemistry + music) / 4;
-        if (average > 50) {
+        if (average > 55) {
             System.out.println("Congratulations. You did it!.");
         } else {
             System.out.println("you must achieve the required average.");
