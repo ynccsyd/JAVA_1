@@ -17,5 +17,13 @@ public class GradeAvarage {
         System.out.print("Music grade: ");
         music = input.nextInt();
 
+        double average = (math + physics + chemistry + music) / 4;
+        if (average > 50) {
+            System.out.println("Congratulations. You did it!.");
+        } else {
+            System.out.println("you must achieve the required average.");
+        }
+        System.out.println("Your average: " + average);
+
     }
 }
