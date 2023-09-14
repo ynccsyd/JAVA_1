@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+}
+
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+.header-nav>a{
+    font-size: small;
+}
+
+ul > a, ul > img{
+    padding: 0 8px;
+}
+
+
+.header-img:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+
+
+img.google{
+    width: 22em;
+    height: auto;
+}
+
+.my-input-container{
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.my-input-container:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.my-input-container > input{
+flex-grow: 1;
+border: none;
+outline: none;
+}
+
+
+.my-button-container{
+    padding-top: 35px;
+}
+
+button{
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border:none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer{
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    
+    
+    
+}
+
+#footer-left>a,#footer-right>a{
+    color: gray;
+}
+
+#footer-left{
+    display:flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+    
+}
+
+#footer-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+/* word "turkey" added later */
+#turkey{
+    color: gray;
+    width: 100vw;
+    display:flex;
+    justify-self: start;
+    padding-left: 30px;
+    align-items: center
+}
