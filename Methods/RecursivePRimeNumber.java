@@ -10,9 +10,9 @@ public class RecursivePRimeNumber {
         inp.close();
 
         if (isPrime(number)) {
-            System.out.println(" is a prime number.");
+            System.out.println(" is a PRIME number.");
         } else {
-            System.out.println(" is not a prime number.");
+            System.out.println(" is not a PRIME number.");
         }
     }
 
