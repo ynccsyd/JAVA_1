@@ -9,35 +9,24 @@ public class RecursivePRimeNumber {
         int number = inp.nextInt();
         inp.close();
 
-        if (isPrime(number)) {
+        if (isPrime(number, number - 1)) {
             System.out.println(" is a PRIME number.");
         } else {
             System.out.println(" is not a PRIME number.");
         }
     }
 
-    public static boolean isPrime(int number) {
+    public static boolean isPrime(int number, int divisor) {
         if (number <= 1) {
             return false;
         }
-        if (number == 2) {
-            return true;
-        }
-        if (number % 2 == 0) {
-            return false;
-        }
-        int maxDivisor = (int) Math.sqrt(number);
-        return isPrime(number, 3, maxDivisor);
-    }
-
-    public static boolean isPrime(int number, int divisor, int maxDivisor) {
-        if (divisor > maxDivisor) {
+        if (divisor == 1) {
             return true;
         }
         if (number % divisor == 0) {
             return false;
         }
-        return isPrime(number, divisor + 2, maxDivisor);
+        return isPrime(number, divisor - 1);
 
     }
 
