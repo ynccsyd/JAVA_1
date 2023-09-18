@@ -20,7 +20,7 @@ public class RecursiveRule {
         Scanner inp = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int n1 = inp.nextInt();
-        System.out.println("N Say: " + n1);
+
         inp.close();
         recursiveRule(n1, n1);
 
