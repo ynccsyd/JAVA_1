@@ -14,7 +14,7 @@ public class DuplicateEvenNumbersFinder {
         int startIndex = 0;
 
         for (int i = 0; i < list.length; i++) {
-            boolean found = false; // Tekrar eden bir öğeyi daha önce bulup bulmadığımızı kontrol etmek için
+            boolean found = false; // To check whether we have previously found a duplicate number
             for (int j = 0; j < i; j++) {
                 if (list[i] == list[j]) {
                     found = true;
