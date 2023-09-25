@@ -4,7 +4,7 @@ public class ArrayElementFrequency {
 
         for (int i = 0; i < list.length; i++) {
             int element = list[i];
-            int frequency = 0;
+            int frequency = 0; // start to count
 
             for (int j = 0; j < list.length; j++) {
                 if (element == list[j]) {
