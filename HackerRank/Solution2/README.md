@@ -1,3 +1,5 @@
+## HackerRank Challenge JAVA
+* ## 👀 ${\color{blue}Problem:}$ 
 An array is a simple data structure used to store a collection of data in a contiguous block of memory. Each element in the collection is accessed using an index, and the elements are easy to find because they're stored sequentially in memory.
 
 Because the collection of elements in an array is stored as a big block of data, we typically use arrays when we know exactly how many pieces of data we're going to have. For example, you might use an array to store a list of student ID numbers, or the names of state capitals. To create an array of integers named  that can hold four integer values, you would write the following code:
@@ -11,7 +13,7 @@ Similarly, we can print the contents of the last cell with the following code:
 System.out.println(myArray[3]);
 The code above prints the value stored at index  of , which is  (the value we previously stored there). It's important to note that while Java initializes each cell of an array of integers with a , not all languages do this.
 
-Task
+*  ## 🎯 ${\color{blue}Task:}$ 
 
 The code in your editor does the following:
 
@@ -24,16 +26,16 @@ Create an array, , capable of holding  integers.
 Modify the code in the loop so that it saves each sequential value to its corresponding location in the array. For example, the first value must be stored in , the second value must be stored in , and so on.
 Good luck!
 
-Input Format
+* ## ${\color{blue}Input Format}$ 
 
 The first line contains a single integer, , denoting the size of the array.
 Each line  of the  subsequent lines contains a single integer denoting the value of element .
 
-Output Format
+* ## ${\color{blue}Output\ Format}$ 
 
 You are not responsible for printing any output to stdout. Locked code in the editor loops through array  and prints each sequential element on a new line.
 
-Sample Input
+* ## ${\color{blue}Sample\ Input}$ 
 
 5
 10
@@ -41,13 +43,13 @@ Sample Input
 30
 40
 50
-Sample Output
+* ## ${\color{blue}Sample\ Output}$ 
 
 10
 20
 30
 40
 50
-Explanation
+* ## ${\color{blue}Explanation}$ 
 
 When we save each integer to its corresponding index in , we get . The locked code prints each array element on a new line from left to right.
