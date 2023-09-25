@@ -28,5 +28,6 @@ public class ArraySorting { // BubbleSort
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
+        input.close();
     }
 }
