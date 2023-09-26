@@ -12,6 +12,8 @@ public class PredictionNumber {
         int selected;
         int[] wrong = new int[5];
         boolean isWin = false;
+        boolean isWrong = false;
+
         // System.out.println(number);
 
         while (right < 5) {
@@ -22,7 +24,7 @@ public class PredictionNumber {
                 continue;
             }
             if (selected == number) {
-                System.out.println("Congrats...! Your prediction is: " + number);
+                System.out.println("Congrats...! The number is: " + number);
                 isWin = true;
                 break;
             } else {
@@ -38,9 +40,11 @@ public class PredictionNumber {
 
         }
         System.out.println(number);
-        if (isWin) {
+        if (!isWin) {
             System.out.println("I am sory, you have lost.");
-            System.out.println("Your predictions : " + Arrays.toString(wrong));
+            if (!isWrong) {
+                System.out.println("Your predictions : " + Arrays.toString(wrong));
+            }
         }
 
     }
